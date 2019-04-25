@@ -1,0 +1,16 @@
+PODS:
+  - SDWebImage/Core (5.0.2)
+
+DEPENDENCIES:
+  - SDWebImage/Core (from `../SDWebImage`)
+
+EXTERNAL SOURCES:
+  SDWebImage:
+    :path: "../SDWebImage"
+
+SPEC CHECKSUMS:
+  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+
+PODFILE CHECKSUM: 5a967b59c239107180251a0cd219c11f8d1e8a4e
+
+COCOAPODS: 1.6.1
