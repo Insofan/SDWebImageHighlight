@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F6B0F24364036CD87DB3D9D /* libPods-SDWebImageHighlightTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66786F092679979259E55B4C /* libPods-SDWebImageHighlightTests.a */; };
 		380D2460FFE7F6E2BD794D11 /* libPods-SDWebImageHighlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6775CA403EA55B84F8AB4FD /* libPods-SDWebImageHighlight.a */; };
+		E675331022753B5500854DA2 /* FirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E675330F22753B5500854DA2 /* FirViewController.m */; };
 		E6F8B24722720AC0004D33BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F8B24622720AC0004D33BF /* AppDelegate.m */; };
 		E6F8B24A22720AC0004D33BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F8B24922720AC0004D33BF /* ViewController.m */; };
 		E6F8B24D22720AC0004D33BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F8B24B22720AC0004D33BF /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 		A4812820E0E7D75B35E76AE9 /* Pods-SDWebImageHighlightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageHighlightTests.release.xcconfig"; path = "Target Support Files/Pods-SDWebImageHighlightTests/Pods-SDWebImageHighlightTests.release.xcconfig"; sourceTree = "<group>"; };
 		B8848D40E83EA8F2149053EA /* Pods-SDWebImageHighlightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageHighlightTests.debug.xcconfig"; path = "Target Support Files/Pods-SDWebImageHighlightTests/Pods-SDWebImageHighlightTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6775CA403EA55B84F8AB4FD /* libPods-SDWebImageHighlight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDWebImageHighlight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E675330E22753B5400854DA2 /* FirViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirViewController.h; sourceTree = "<group>"; };
+		E675330F22753B5500854DA2 /* FirViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirViewController.m; sourceTree = "<group>"; };
 		E6F8B24222720AC0004D33BF /* SDWebImageHighlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebImageHighlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F8B24522720AC0004D33BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6F8B24622720AC0004D33BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,7 +90,6 @@
 				B8848D40E83EA8F2149053EA /* Pods-SDWebImageHighlightTests.debug.xcconfig */,
 				A4812820E0E7D75B35E76AE9 /* Pods-SDWebImageHighlightTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -118,6 +120,8 @@
 				E6F8B24622720AC0004D33BF /* AppDelegate.m */,
 				E6F8B24822720AC0004D33BF /* ViewController.h */,
 				E6F8B24922720AC0004D33BF /* ViewController.m */,
+				E675330E22753B5400854DA2 /* FirViewController.h */,
+				E675330F22753B5500854DA2 /* FirViewController.m */,
 				E6F8B24B22720AC0004D33BF /* Main.storyboard */,
 				E6F8B24E22720AC1004D33BF /* Assets.xcassets */,
 				E6F8B25022720AC1004D33BF /* LaunchScreen.storyboard */,
@@ -287,6 +291,7 @@
 			files = (
 				E6F8B24A22720AC0004D33BF /* ViewController.m in Sources */,
 				E6F8B25522720AC1004D33BF /* main.m in Sources */,
+				E675331022753B5500854DA2 /* FirViewController.m in Sources */,
 				E6F8B24722720AC0004D33BF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
